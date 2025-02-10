@@ -73,7 +73,6 @@ const createTask = () => {
           <option value="Pendente">Pendente</option>
           <option value="Em andamento">Em andamento</option>
           <option value="Em atraso">Em atraso</option>
-          <option value="Concluída">Concluída</option>
         </select>
 
         <button type="submit" className={styles.save}>Salvar</button>

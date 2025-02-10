@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 var builder = WebApplication.CreateBuilder(args);
 
-string credentialsPath = "caminho/para/seu/arquivo-de-credenciais.json";
+string credentialsPath = "firebase-config.json";
 Environment.SetEnvironmentVariable("GOOGLE_APPLICATION_CREDENTIALS", credentialsPath);
 
 builder.Services.AddSingleton<FirestoreService>();
