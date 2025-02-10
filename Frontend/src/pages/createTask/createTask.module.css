@@ -1,0 +1,67 @@
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .title {
+    text-align: center;
+    color: #333;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .label {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .input,
+  .textarea,
+  .select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
+  .save {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #247BA0;
+    transition: .3s;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .save:hover {
+    background-color: #1d607d;
+  }
+  
+  .back {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #1C99E0;
+    text-decoration: none;
+  }
+  
+  .back:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #333;
+    padding: 15px 20px;
+    margin-bottom: 1%;
+}
+
+.logo {
+    height: 45px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    padding: 5px 8px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: rgba(28, 153, 224, 1);
+    transition: background 0.3s;
+}
+
+.brand:hover {
+    background-color: rgba(28, 153, 224, 0.5);
+}

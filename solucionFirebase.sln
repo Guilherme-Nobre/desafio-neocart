@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{970DE2C4-2E6F-47AA-84FD-C821B4C37534}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiEnviarEmail", "ApiEnviarEmail\ApiEnviarEmail.csproj", "{74B975B3-73E6-40A0-B728-C6E44E07B5CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{970DE2C4-2E6F-47AA-84FD-C821B4C37534}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{970DE2C4-2E6F-47AA-84FD-C821B4C37534}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{970DE2C4-2E6F-47AA-84FD-C821B4C37534}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{970DE2C4-2E6F-47AA-84FD-C821B4C37534}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74B975B3-73E6-40A0-B728-C6E44E07B5CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74B975B3-73E6-40A0-B728-C6E44E07B5CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74B975B3-73E6-40A0-B728-C6E44E07B5CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74B975B3-73E6-40A0-B728-C6E44E07B5CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

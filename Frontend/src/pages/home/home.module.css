@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 60px;
+}
+
+.pendente,
+.emAndamento,
+.emAtraso,
+.concluida {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    width: 90%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.pendente,
+.emAndamento,
+.emAtraso,
+.concluida h3 {
+    color: #222;
+}
+
+.tasks {
+    background-color: #FEF699;
+    color: #444;
+    border-bottom-right-radius: 10px;
+    width: 95%;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+}
+
+.tasks .descricao {
+    background-color: #f1e98f;
+
+    /* quebras de linha */
+    white-space: nowrap;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    word-break: break-all;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.id {
+    font-size: 10px;
+}
