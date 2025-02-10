@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\isnep\\Documents\\GitHub\\Desafio Neocart\\API\\API.csproj": {}
+    "C:\\Users\\isnep\\Documents\\GitHub\\desafio-neocart\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\isnep\\Documents\\GitHub\\Desafio Neocart\\API\\API.csproj": {
+    "C:\\Users\\isnep\\Documents\\GitHub\\desafio-neocart\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\isnep\\Documents\\GitHub\\Desafio Neocart\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\isnep\\Documents\\GitHub\\desafio-neocart\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\isnep\\Documents\\GitHub\\Desafio Neocart\\API\\API.csproj",
+        "projectPath": "C:\\Users\\isnep\\Documents\\GitHub\\desafio-neocart\\API\\API.csproj",
         "packagesPath": "C:\\Users\\isnep\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\isnep\\Documents\\GitHub\\Desafio Neocart\\API\\obj\\",
+        "outputPath": "C:\\Users\\isnep\\Documents\\GitHub\\desafio-neocart\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
