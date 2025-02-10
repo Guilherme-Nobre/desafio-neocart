@@ -7,7 +7,7 @@ const createTask = () => {
   const [Titulo, setTitulo] = useState("");
   const [Descricao, setDescricao] = useState("");
   const [Email, setEmail] = useState("");
-  const [Arquivo, setArquivo] = useState(""); // Será enviado
+  const [Arquivo, setArquivo] = useState("");
   const [Status, setStatus] = useState("");
 
   const navigate = useNavigate();
